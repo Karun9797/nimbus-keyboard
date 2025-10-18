@@ -1,7 +1,7 @@
 # 🎹 Nimbus Keyboard — 3D Interactive Experience
 
 Explore the **Nimbus Keyboard** in an immersive 3D environment!  
-Built with cutting-edge web technologies like **Next.js**, **Prismic CMS**, **React Three Fiber**, **Drei**, and **TailwindCSS**, this site demonstrates how modern design, smooth performance, and interactive visuals can blend seamlessly.
+Built with **Next.js**, **Prismic CMS**, **React Three Fiber**, **Drei**, **TailwindCSS**, and **Stripe**, this project demonstrates how modern web technologies can create interactive, stylish, and monetizable experiences.
 
 ---
 
@@ -17,7 +17,8 @@ Built with cutting-edge web technologies like **Next.js**, **Prismic CMS**, **Re
 
 ## 🧠 Overview
 
-The **Nimbus Keyboard** project reimagines how products can be showcased online — not through static photos, but through **real-time 3D interaction**.  
+Nimbus Keyboard combines **3D interactivity**, **dynamic content**, and **e-commerce functionality** to create a unique online product showcase.  
+Users can explore the keyboard in real-time 3D and purchase directly through **Stripe payment integration (not recommended)**.
 
 ---
 
@@ -26,18 +27,20 @@ The **Nimbus Keyboard** project reimagines how products can be showcased online 
 | Technology | Description |
 |-------------|-------------|
 | **Next.js** | Framework for server-side rendering, routing, and static optimization |
-| **Prismic CMS** | Headless CMS for managing and updating dynamic content |
-| **React Three Fiber** | React renderer for **Three.js** enabling powerful 3D visuals |
-| **Drei** | Helper library for simplifying 3D elements (camera, lighting, etc.) |
-| **TailwindCSS** | Utility-first CSS framework for responsive and modern UI styling |
+| **Prismic CMS** | Headless CMS for managing dynamic content |
+| **React Three Fiber** | React renderer for **Three.js** enabling 3D experiences |
+| **Drei** | Helpers for camera controls, lighting, and 3D interactions |
+| **TailwindCSS** | Utility-first CSS framework for responsive design |
+| **Stripe** | Secure payment gateway for online purchases |
 
 ---
 
 ## ✨ Features
 - 🌀 **3D Interactive Keyboard Model** powered by Three Fiber  
-- 🎨 **TailwindCSS Styling** for a clean and minimal design  
-- ⚡ **Optimized Performance** using lazy loading and SSR  
-- 🧠 **Prismic CMS Integration** for easily updating content  
-- 📱 **Fully Responsive Design** for desktop, tablet, and mobile  
+- 🎨 **TailwindCSS Styling** for clean, responsive design  
+- 💳 **Stripe Payment Integration** for seamless checkout  
+- 🧠 **Prismic CMS Integration** for dynamic content updates  
+- ⚡ **Optimized Performance** with lazy loading and SSR  
+- 📱 **Fully Responsive Design** for desktop and mobile  
 
 ---
