@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎹 Nimbus Keyboard — 3D Interactive Experience
 
-## Getting Started
+Explore the **Nimbus Keyboard** in an immersive 3D environment!  
+Built with cutting-edge web technologies like **Next.js**, **Prismic CMS**, **React Three Fiber**, **Drei**, and **TailwindCSS**, this site demonstrates how modern design, smooth performance, and interactive visuals can blend seamlessly.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live Demo
+<p align="center">👇</p>
+<p align="center">
+  <a href="https://nimbus-keyboard-seven.vercel.app/">
+    <img src="https://img.shields.io/badge/Online-Visit-brightgreen" alt="Online">
+  </a>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The **Nimbus Keyboard** project reimagines how products can be showcased online — not through static photos, but through **real-time 3D interaction**.  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧩 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Technology | Description |
+|-------------|-------------|
+| **Next.js** | Framework for server-side rendering, routing, and static optimization |
+| **Prismic CMS** | Headless CMS for managing and updating dynamic content |
+| **React Three Fiber** | React renderer for **Three.js** enabling powerful 3D visuals |
+| **Drei** | Helper library for simplifying 3D elements (camera, lighting, etc.) |
+| **TailwindCSS** | Utility-first CSS framework for responsive and modern UI styling |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✨ Features
+- 🌀 **3D Interactive Keyboard Model** powered by Three Fiber  
+- 🎨 **TailwindCSS Styling** for a clean and minimal design  
+- ⚡ **Optimized Performance** using lazy loading and SSR  
+- 🧠 **Prismic CMS Integration** for easily updating content  
+- 📱 **Fully Responsive Design** for desktop, tablet, and mobile  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
