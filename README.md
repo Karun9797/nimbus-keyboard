@@ -6,8 +6,8 @@ Built with **Next.js**, **Prismic CMS**, **React Three Fiber**, **Drei**, **Tail
 ---
 
 ## 🌐 Live Demo
-<p align="center">👇</p>
-<p align="center">
+<p align="left">👇</p>
+<p align="left">
   <a href="https://nimbus-keyboard-seven.vercel.app/">
     <img src="https://img.shields.io/badge/Online-Visit-brightgreen" alt="Online">
   </a>
