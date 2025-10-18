@@ -1,0 +1,31 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Eight"
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Exercitation exercitation dolor non enim voluptate qui laborum occaecat aliquip incididunt ad do dolore non amet. In nostrud sunt consequat cillum non et. Deserunt exercitation id aute adipisicing occaecat veniam magna ullamco enim labore."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]
