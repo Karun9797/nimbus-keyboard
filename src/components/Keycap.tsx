@@ -1,7 +1,6 @@
 import * as THREE from "three";
 import { Float, useGLTF, useTexture } from "@react-three/drei";
 import { GLTF } from "three-stdlib";
-import { texture } from "three/tsl";
 
 type KeyCapProps = {
   position?: [number, number, number];

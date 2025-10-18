@@ -1,11 +1,9 @@
 "use client";
 
 import { useGSAP } from "@gsap/react";
-import clsx from "clsx";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
-import { materialOpacity } from "three/tsl";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 

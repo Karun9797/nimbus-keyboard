@@ -18,7 +18,6 @@ type GLTFResult = GLTF & {
     Single_Switch_Mesh_1: THREE.Mesh;
     Single_Switch_Mesh_2: THREE.Mesh;
   };
-  materials: {};
 };
 
 type SwitchProps = React.ComponentProps<"group"> & {
@@ -135,15 +134,6 @@ export function Switch({ color, hexColor, ...restProps }: SwitchProps) {
           <meshStandardMaterial color="#999999" roughness={0.7} />
         </mesh>
 
-        {/* Gold contacts */}
-        {/* <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Single_Switch_Mesh.geometry}
-        >
-          <meshStandardMaterial color="#ffd700" roughness={0.1} metalness={1} />
-        </mesh> */}
-
         {/* Colored stem */}
         <mesh
           ref={stemRef}
@@ -153,15 +143,6 @@ export function Switch({ color, hexColor, ...restProps }: SwitchProps) {
         >
           <meshStandardMaterial color={hexColor} roughness={0.7} />
         </mesh>
-
-        {/* Switch base */}
-        {/* <mesh
-          castShadow
-          receiveShadow
-          geometry={nodes.Single_Switch_Mesh_4.geometry}
-        >
-          <meshStandardMaterial color="#999999" roughness={0.7} />
-        </mesh> */}
       </group>
     </group>
   );

@@ -9,7 +9,6 @@ import {
 } from "@prismicio/react";
 import { Bounded } from "@/components/Bounded";
 import { FadeIn } from "@/components/FadeIn";
-import { div } from "three/tsl";
 import clsx from "clsx";
 import { Canvas } from "@react-three/fiber";
 import { SOUND_MAP, Switch } from "@/components/Switch";

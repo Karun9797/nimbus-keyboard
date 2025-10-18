@@ -331,13 +331,13 @@ export const Keyboard = forwardRef<KeyboardRefs, KeyboardProps>(
 
     const keycapMat = keycapMaterial || defaultKeycapMat;
 
-    const knurlMat = new THREE.MeshStandardMaterial({
-      color: "#E24818",
-      roughness: 0.4,
-      metalness: 1,
-      bumpMap: knurlTexture,
-      bumpScale: 1,
-    });
+    // const knurlMat = new THREE.MeshStandardMaterial({
+    //   color: "#E24818",
+    //   roughness: 0.4,
+    //   metalness: 1,
+    //   bumpMap: knurlTexture,
+    //   bumpScale: 1,
+    // });
 
     const knobMat = new THREE.MeshStandardMaterial({
       color: knobColor || "#e24818",

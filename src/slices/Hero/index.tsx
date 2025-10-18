@@ -12,7 +12,6 @@ import { SplitText } from "gsap/SplitText";
 import { useGSAP } from "@gsap/react";
 import { Loader } from "@/components/Loader";
 import { useProgress } from "@react-three/drei";
-import { div } from "three/tsl";
 import clsx from "clsx";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);

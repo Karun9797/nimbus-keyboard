@@ -5,7 +5,6 @@ import { Keycap } from "@/components/Keycap";
 import { useGSAP } from "@gsap/react";
 import { Environment, PerspectiveCamera } from "@react-three/drei";
 import gsap from "gsap";
-import { useControls } from "leva";
 import { useEffect, useRef, useState } from "react";
 import * as THREE from "three";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -67,7 +66,7 @@ function CameraController() {
 
       return () => window.removeEventListener("mousemove", handleMouseMove);
     }
-  }, [size]);
+  }, [size, prefersReducedMotion]);
   return null;
 }
 
@@ -131,7 +130,7 @@ export function Scene() {
       keycaps.traverse((child) => {
         if (child instanceof THREE.Mesh) {
           // cast to any to let GSAP write `opacity` at runtime
-          const mat = child.material as any;
+          const mat = child.material as THREE.Material;
           mat.transparent = true;
           mat.opacity = 0; // set starting opacity
           // materials.push(mat);
